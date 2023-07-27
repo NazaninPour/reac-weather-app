@@ -4,14 +4,16 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <div className="row">
-        <div className="col-9">
-          <form d-flex>
+      <form>
+        <div className="row">
+          <div className="col-9">
             <input type="search" placeholder="Enter a city" />
+          </div>
+          <div className="col-3">
             <input type="submit" value="search" className="btn btn-primary" />
-          </form>
+          </div>
         </div>
-      </div>
+      </form>
       -----------------------------
       <div>
         <h1>New York</h1>
