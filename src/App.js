@@ -8,7 +8,16 @@ function App() {
       <div className="container">
         <Weather />
         <footer>
-          This project was coded by Nazanin Abbaspour and is open-sourced on{" "}
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/nazanin-naz-abbas-pour-0772315b/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Nazanin Abbaspour
+          </a>{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/NazaninPour/reac-weather-app"
             target="_blank"
