@@ -1,5 +1,6 @@
 import React from "react";
 import Realtime from "./Realtime";
+import Weathericon from "./Weathericon";
 
 export default function Weatherinfo(props) {
   return (
@@ -16,10 +17,9 @@ export default function Weatherinfo(props) {
       ------------------------------
       <div className="row">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
-            alt="weather icon"
-          ></img>
+          <span className="image">
+            <Weathericon status={props.extra.icon} />
+          </span>
           <span className="temperature">
             {Math.round(props.extra.temperature)}
           </span>

@@ -6,7 +6,7 @@ import Weatherinfo from "./Weatherinfo";
 
 export default function Weather(props) {
   let [details, setDetails] = useState({ ready: false });
-  let [city, setCity] = useState(props.city);
+  let [city, setCity] = useState(props.citydef);
 
   function handlecity(event) {
     event.preventDefault();
