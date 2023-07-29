@@ -9,11 +9,7 @@ function App() {
         <Weather citydef="New York" />
         <footer>
           This project was coded by{" "}
-          <a
-            href="https://www.linkedin.com/in/nazanin-naz-abbas-pour-0772315b/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="/" target="_blank" rel="noreferrer">
             {" "}
             Nazanin Abbaspour
           </a>{" "}
