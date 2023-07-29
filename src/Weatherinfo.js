@@ -15,6 +15,7 @@ export default function Weatherinfo(props) {
           <li className="text-capitalize">{props.extra.description}</li>
         </ul>
       </div>
+      <hr />
       <div className="row">
         <div className="col-6">
           <span className="image">
